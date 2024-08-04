@@ -15,6 +15,6 @@ spec:
   releaseName: cilium-rlease
   targetNamespace: cilium-system
   install:
-    crds: Create
+    crds: CreateReplace
   upgrade:
     crds: CreateReplace
