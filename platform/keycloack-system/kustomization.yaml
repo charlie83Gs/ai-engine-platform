@@ -5,6 +5,7 @@ resources:
 - namespace.yaml
 - helmrepository-keycloack.yaml
 - helmrelease-keycloack.yaml
+- keycloack-sealed.yaml
 configMapGenerator:
   - name: keycloack-values
     files:
