@@ -1,0 +1,19 @@
+auth:
+  adminPassword: KEYCLOAK_ADMIN_PASSWORD
+  existingSecret: "keycloack"
+  passwordSecretKey: "password"
+
+
+resourcesPreset: "small"
+resources:
+  requests:
+    cpu: 0.5
+    memory: 512Mi
+  limits:
+    cpu: 1
+    memory: 1024Mi
+
+postgresql: 
+  postgresqlPassword: POSTGRESQL_PASSWORD 
+  persistence.existingClaim: POSTGRESQL_PVC
+  defaultStorageClass: "do-block-storage"

@@ -1,0 +1,15 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: keycloack
+  namespace: keycloack-system
+spec:
+  encryptedData:
+    password: AgBz8ZUFmlmSe4U3nRYxyOIOEkSBulRaeOJrabhD7MTKVOssmhPuN1Idqf2BNbNSl5rl/W/aCis8DLlH61tZgFYrUIA2K2IcvPWS3XQ46PXP9fINACixry3bmjfs4T9WbAFpX/DK4HDOt+TOSPR70vEO3Z5BsHVTNXUkJgTmq7fRk/LQZ4DsGmxfdPNWNbLl46W8N3RbHvtjFRY+2zszZvwDCcY/FQQSMIdBf0Nlw3QLHKWV+3G/YUXi7vDGa6xfzidZp0jcwxSPCSmUjfw/IeHtOoI8kWj8WPCCnpGgIKMlYAh/ur6FYWnyVFgzbcjNAjDVpHFI+WeuQrzwgKLhbMTWV38CmrQjRL8mrI6Z8wvnTKfvNkfxaS8+ah+/3Sxm6Y7OU2T3OSV39xAnkOJxSXa0UdgjeaFhljw2TJITbcT6pTSkYnh+lnynDzr8A7OpWQeA1sROwL38ShoH/fpbndEVng7BXO+UVzckitPv/WnKUO80/Aa5aalF7DUcJuRA5CreEAGUREhvVvmpR5nVXfKxPF1rUbqRVnGXbE0BkxYTz3l0Kk2NTK2M9cDwzlCl1q0IEc+rKtAfcKsZJuN0DC1GEYmJCYjjyD5Gpi4UM1JMhsrQR77YYnCrK3WfM9t1BnsoMrSqAxGTmekm04qM1BFAIblfZWOtCKWm/K1iNTtenbDPtBxuuF95s9zXCRrWQfKNwZOd5d7miE4ThSI=
+  template:
+    metadata:
+      creationTimestamp: null
+      name: keycloack
+      namespace: keycloack-system
