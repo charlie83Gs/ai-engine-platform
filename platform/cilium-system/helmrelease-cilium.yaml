@@ -2,7 +2,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: cilium-release
-  namespace: cilium-system
+  namespace: kube-system
 spec:
   chart:
     spec:
@@ -13,7 +13,7 @@ spec:
       version: ">=1.15.0-0"
   interval: 1h0m0s
   releaseName: cilium-release
-  targetNamespace: cilium-system
+  targetNamespace: kube-system
   install:
     crds: CreateReplace
   upgrade:
