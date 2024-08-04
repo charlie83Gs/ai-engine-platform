@@ -1,4 +1,5 @@
 https://docs.cilium.io/en/stable/installation/k8s-install-helm/
+https://docs.cilium.io/en/stable/helm-reference/
 
 
 ## Reinstall cluster roles and rolebindings

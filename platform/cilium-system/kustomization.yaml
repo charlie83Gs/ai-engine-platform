@@ -4,3 +4,9 @@ resources:
 - namespace.yaml
 - helmrepository-cilium.yaml
 - helmrelease-cilium.yaml
+configMapGenerator:
+  - name: keycloack-values
+    files:
+      - values.yaml=cilium-values.yaml
+configurations:
+- kustomizeconfig.yaml

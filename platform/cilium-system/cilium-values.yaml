@@ -1,0 +1,6 @@
+ingressController:
+  enabled: true
+  loadbalancerMode: shared
+  service:
+    annotations:
+      service.beta.kubernetes.io/do-loadbalancer-size-unit: "1"

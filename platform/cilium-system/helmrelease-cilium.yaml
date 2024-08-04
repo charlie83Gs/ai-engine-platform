@@ -18,3 +18,6 @@ spec:
     crds: CreateReplace
   upgrade:
     crds: CreateReplace
+  valuesFrom:
+    - kind: ConfigMap
+      name: cilium-values

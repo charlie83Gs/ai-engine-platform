@@ -1,5 +1,5 @@
 auth:
-  adminPassword: KEYCLOAK_ADMIN_PASSWORD
+  adminUser: aiplatform
   existingSecret: "keycloack"
   passwordSecretKey: "password"
 

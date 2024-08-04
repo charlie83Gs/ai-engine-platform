@@ -21,3 +21,12 @@ kubeseal --format=yaml --cert=pub-sealed-secrets.pem --namespace keycloack-syste
 rm secretname.yaml pub-sealed-secrets.pem
 ```
 
+## Accesing the service locally
+
+```bash
+kubectl port-forward -n keycloack-system service/keycloack-keycloak 8000:80
+```
+
+```bash
+kubectl port-forward -n keycloack-system pods/keycloack-keycloak-0 9000:9000
+```
