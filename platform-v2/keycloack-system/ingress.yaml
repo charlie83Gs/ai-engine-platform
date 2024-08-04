@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: keycloack-ingress
+  namespace: keycloack-system
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  ingressClassName: cilium
+  rules:
+  - http:
+      paths:
+      - backend:
+          service:
+            name: keycloack-keycloak
+            port:
+              number: 8080
+        path: /keycloak(/|$)(.*)
+        pathType: Prefix
