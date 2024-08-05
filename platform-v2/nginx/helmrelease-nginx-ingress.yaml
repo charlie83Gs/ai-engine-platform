@@ -27,5 +27,3 @@ spec:
         type: LoadBalancer
       publishService:
         enabled: true
-    admissionWebhooks:
-      enabled: true
