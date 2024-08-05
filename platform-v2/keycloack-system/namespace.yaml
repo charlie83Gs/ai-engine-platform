@@ -3,4 +3,4 @@ kind: Namespace
 metadata:
   name: keycloack-system
   labels:
-    istio-injection: enabled
+    linkerd.io/inject: enabled
