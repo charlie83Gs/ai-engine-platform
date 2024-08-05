@@ -1,3 +1,4 @@
+# Use relative path
 httpRelativePath: keycloak
 
 auth:
