@@ -1,1 +1,0 @@
-https://isovalent.com/blog/post/tutorial-getting-started-with-the-cilium-gateway-api/

@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: network-system
 resources:
 - namespace.yaml
-- gateway-helmrelease.yaml
-- helmrepository-gateway.yaml
+- helmrelease-nginx-ingress.yaml
+- helmrepository-nginx-ingress.yaml
+
