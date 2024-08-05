@@ -3,5 +3,6 @@ kind: Kustomization
 namespace: cert-manager-system
 resources:
 - namespace.yaml
-- helmrelease-nginx-ingress.yaml
-- helmrepository-nginx-ingress.yaml
+- helmrelease-cert-manager.yaml
+- helmrepository-cert-manager.yaml
+- issuer.yaml
