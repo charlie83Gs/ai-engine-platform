@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: aiengine-ingress
+  namespace: nginx-system
   annotations:
     kubernetes.io/ingress.class: nginx
     nginx.ingress.kubernetes.io/rewrite-target: /$1
@@ -19,6 +20,15 @@ spec:
         path: /keycloak/(.*)
         backend:
           service:
-            name: keycloack-keycloak.keycloack-system
+            name: keycloaksvc
             port:
               number: 80
+---
+kind: Service
+apiVersion: v1
+metadata:
+  name: keycloaksvc
+  namespace: nginx-system
+spec:
+  type: ExternalName
+  externalName: keycloack-keycloak.keycloack-system.svc.cluster.local
