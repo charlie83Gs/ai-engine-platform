@@ -19,6 +19,6 @@ spec:
         path: /keycloak/(.*)
         backend:
           service:
-            name: keycloack-keycloak.keycloack-system.svc.cluster.local
+            name: keycloack-keycloak.keycloack-system
             port:
               number: 80
