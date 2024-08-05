@@ -5,4 +5,4 @@ resources:
 - namespace.yaml
 - helmrelease-cert-manager.yaml
 - helmrepository-cert-manager.yaml
-# - issuer.yaml
+- issuer.yaml

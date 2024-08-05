@@ -1,3 +1,5 @@
+httpRelativePath: keycloak
+
 auth:
   adminUser: aiplatform
   existingSecret: "keycloack"
