@@ -4,3 +4,4 @@ namespace: network-system
 resources:
 - namespace.yaml
 - gateway-helmrelease.yaml
+- helmrepository-gateway.yaml
