@@ -5,4 +5,4 @@ resources:
 - namespace.yaml
 - helmrelease-nginx-ingress.yaml
 - helmrepository-nginx-ingress.yaml
-
+- ingress.yaml
