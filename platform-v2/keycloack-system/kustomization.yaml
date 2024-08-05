@@ -6,7 +6,6 @@ resources:
 - helmrepository-keycloack.yaml
 - helmrelease-keycloack.yaml
 - keycloack-sealed.yaml
-- ingress.yaml
 configMapGenerator:
   - name: keycloack-values
     files:
